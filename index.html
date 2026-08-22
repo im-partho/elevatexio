@@ -1,0 +1,1684 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ELEVATEXIO PROGRAM | Study in India with Scholarship, Internship and Career Opportunities</title>
+
+  <!-- SEO + Open Graph -->
+  <meta name="description" content="ELEVATEXIO Program connects international students with quality education in India, scholarships, internships, employability programs and career-focused opportunities." />
+  <meta property="og:title" content="ELEVATEXIO Program | Study in India, Scholarships & Career Opportunities" />
+  <meta property="og:description" content="Your gateway to quality, career-focused education in India, with scholarships, streamlined admissions, industry internships, and employability programs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/og-studying-india.jpg" />
+  <meta property="og:url" content="https://elevatexio.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Schema (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"ElevateX.Io Solutions",
+    "url":"https://elevatexio.com",
+    "logo":"https://elevatexio.com/img/logo.png",
+    "sameAs":[
+      "https://www.facebook.com/profile.php?id=61572854667516",
+      "https://www.instagram.com/elevatex.io/",
+      "https://www.linkedin.com/company/elevatex-io/"
+    ],
+    "contactPoint":[
+      {
+        "@type":"ContactPoint",
+        "telephone":"+8801905832655",
+        "contactType":"customer support",
+        "email":"support@elevatexio.com",
+        "areaServed":"BD"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root{
+      --primary:#0047AB;
+      --accent:#25D366;
+      --muted:#6b7280;
+      --bg:#ffffff;
+      --card:#f8f9fb;
+      --container:1100px;
+      --radius:12px;
+      font-family: 'Inter', system-ui, -apple-system, Roboto, "Segoe UI", "Helvetica Neue", Arial;
+    }
+    /* Basic reset */
+    *{box-sizing:border-box}
+    html,body{height:100%; margin:0; color:#0b1220; background:var(--bg); -webkit-font-smoothing:antialiased}
+    a{color:inherit}
+    img{max-width:100%; display:block}
+
+    /* Header */
+    header{
+      position:sticky; top:0; z-index:1000;
+      background:rgba(255,255,255,0.97);
+      border-bottom:1px solid #eef2f6; backdrop-filter: blur(4px);
+    }
+    .nav-container{max-width:var(--container); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 20px}
+    .brand{display:flex; gap:14px; align-items:center}
+    .brand img{height:36px}
+    nav a{margin:0 10px; text-decoration:none; color:#0b1220; font-weight:600; font-size:15px}
+    .cta-header a{background:var(--primary); color:#fff; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600}
+
+    /* Hero */
+    .hero{
+      background:linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('img/hero-india-students.jpg') center/cover no-repeat;
+      color:white; padding:90px 20px 70px; text-align:center;
+    }
+    .hero-inner{max-width:var(--container); margin:0 auto}
+    .hero h1{font-size:34px; margin:0 0 12px; letter-spacing:-0.5px}
+    .hero p{font-size:18px; margin:0 0 20px; opacity:0.95}
+    .hero .btns{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+    .btn{display:inline-block; padding:12px 18px; border-radius:10px; text-decoration:none; font-weight:700}
+    .btn-primary{background:var(--primary); color:#fff}
+    .btn-ghost{background:rgba(255,255,255,0.12); color:#fff; border:1px solid rgba(255,255,255,0.12)}
+
+    /* ========================================
+   HERO BACKGROUND SLIDER
+======================================== */
+
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+
+/* Background Container */
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+/* Individual Slides */
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0;
+
+  animation: heroFade 15s infinite;
+
+  transform: scale(1.03);
+}
+
+
+/* Slide timing */
+
+.hero-slide:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.hero-slide:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.hero-slide:nth-child(3) {
+  animation-delay: 10s;
+}
+
+
+/* Smooth fade */
+
+@keyframes heroFade {
+
+  0% {
+    opacity: 0;
+  }
+
+  8% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  38% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+
+/* Dark overlay */
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0.72) 0%,
+      rgba(0,0,0,0.58) 45%,
+      rgba(0,0,0,0.35) 100%
+    );
+}
+
+
+/* Keep content above background */
+
+.hero-slider .hero-inner {
+  position: relative;
+  z-index: 2;
+
+  max-width: 900px;
+}
+
+
+/* Hero heading */
+
+.hero-slider h1 {
+  color: #fff;
+}
+
+
+/* Hero paragraph */
+
+.hero-slider p {
+  color: rgba(255,255,255,0.94);
+}
+
+
+/* WhatsApp button */
+
+.whatsapp-btn {
+  background: #25D366;
+  color: #063b15;
+}
+
+.whatsapp-btn:hover {
+  background: #20bd5a;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .hero-slider {
+    min-height: 650px;
+  }
+
+  .hero-slide {
+    background-position: center;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0,0,0,0.70),
+        rgba(0,0,0,0.55)
+      );
+  }
+
+}
+
+    /* layout */
+    .container{max-width:var(--container); margin:40px auto; padding:0 20px}
+    .grid{display:grid; gap:20px}
+    .grid-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:var(--card); padding:20px; border-radius:12px; box-shadow:0 6px 18px rgba(8,15,30,0.04)}
+    h2.section-title{font-size:24px; margin:6px 0 14px; color:var(--primary)}
+
+    /* Study in India highlight */
+    .highlight{display:flex; gap:24px; align-items:center; flex-wrap:wrap}
+    .highlight-left{flex:1; min-width:280px}
+    .highlight-right{flex:1; min-width:280px}
+    .feature-list{list-style: none; padding:0; margin:0}
+    .feature-list li{margin-bottom:10px; font-weight:600; color:#0b1220}
+    .small{font-size:14px; color:var(--muted)}
+
+    /* Academic & Industry Partner Grid */
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.partner-card {
+  height: 120px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.partner-card img {
+  max-width: 85%;
+  max-height: 70px;
+  object-fit: contain;
+}
+
+.many-more {
+  font-size: 20px;
+  font-weight: 700;
+  color: #555;
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .partner-card {
+    height: 95px;
+    padding: 12px;
+  }
+
+  .partner-card img {
+    max-height: 55px;
+  }
+
+  .many-more {
+    font-size: 16px;
+  }
+}
+
+    /* Success Stories Grid */
+
+.success-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.success-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 25px 20px;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.success-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+}
+
+.success-card img {
+  display: block !important;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 15px auto !important;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+.success-card h3 {
+  width: 100%;
+  margin: 5px 0 8px;
+  text-align: center !important;
+  font-size: 1.1rem;
+}
+
+.success-card p {
+  width: 100%;
+  margin: 0 0 8px;
+  text-align: center !important;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.success-card span {
+  width: 100%;
+  text-align: center !important;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* =========================
+   TEAM SECTION
+========================= */
+
+/* Founder Social Links */
+
+.founder-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 7px 11px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* LinkedIn */
+.social-btn.linkedin {
+  background: #0A66C2;
+}
+
+/* Medium */
+.social-btn.medium {
+  background: #000;
+}
+
+/* Instagram */
+.social-btn.instagram {
+  background: #C13584;
+}
+.core-team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.team-member {
+  text-align: center !important;
+  padding: 22px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+}
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block !important;
+  margin: 0 auto 12px auto !important;
+}
+
+.team-role {
+  margin-top: 5px;
+  min-height: 22px;
+}
+
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 7px 13px;
+  background: #0A66C2;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.linkedin-btn:hover {
+  background: #004182;
+  transform: translateY(-2px);
+}
+
+.founder-card {
+  min-width: 230px;
+  max-width: 280px;
+}
+
+
+/* Tablet */
+
+@media (max-width: 850px) {
+
+  .core-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 520px) {
+
+  .core-team-grid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+
+  .team-photo {
+    width: 105px;
+    height: 105px;
+  }
+
+}
+/* Tablet */
+@media (max-width: 800px) {
+  .success-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .success-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .success-card img {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+
+    /* Forms */
+    form .row{display:flex; gap:12px; flex-wrap:wrap}
+    input[type="text"], input[type="email"], select, textarea{
+      width:100%; padding:12px 14px; border-radius:10px; border:1px solid #e6e9ef; font-size:15px;
+    }
+    button[type="submit"]{background:var(--primary); color:#fff; padding:12px 16px; border-radius:10px; border:0; font-weight:700; cursor:pointer}
+
+    /* Footer */
+    footer{background:#08103a; color:#e6eefc; padding:40px 20px; margin-top:40px}
+    .footer-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; max-width:var(--container); margin:0 auto}
+    .socials a{margin-right:10px; color:#e6eefc; text-decoration:none; font-size:18px}
+
+    /* Floating CTA + social sidebar */
+    .whatsapp-cta{position:fixed; right:20px; bottom:80px; z-index:1200; display:flex; gap:10px; align-items:center; background:var(--accent); color:#fff; padding:12px 16px; border-radius:999px; text-decoration:none; box-shadow:0 8px 30px rgba(2,6,23,0.12)}
+    .social-sidebar{position:fixed; left:10px; top:50%; transform:translateY(-50%); display:flex; flex-direction:column; gap:12px; z-index:1000}
+    .social-sidebar a{display:flex; width:44px; height:44px; align-items:center; justify-content:center; border-radius:50%; color:white; text-decoration:none; background:#0047AB}
+
+    /* Responsive tweaks */
+    @media (min-width:980px){
+      .hero h1{font-size:44px}
+      .hero p{font-size:20px}
+    }
+    @media (max-width:720px){
+      nav{display:none}
+    }
+
+    /* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s ease;
+  background: #fff;
+}
+
+.contact-social:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.social-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.social-icon.facebook {
+  background: #1877F2;
+}
+
+.social-icon.instagram {
+  background: #E1306C;
+}
+
+.social-icon.linkedin {
+  background: #0A66C2;
+}
+
+.presence-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.presence-logo img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.contact-social .arrow {
+  margin-left: auto;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .contact-card {
+    max-width:100% !important;
+  }
+
+}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header aria-label="Main header">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#home" aria-label="ElevateX.Io Home"><img src="img/ElevateX_io_trimmed.png" alt="ElevateX.Io logo"></a>
+      </div>
+
+      <nav aria-label="Primary" role="navigation">
+        <a href="#home">Home</a>
+        <a href="#study">Study in India</a>
+        <a href="#services">Services</a>
+        <a href="#team">Meet the Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="cta-header">
+        <a href="https://tally.so/r/mJ52E7" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+<section id="home" class="hero hero-slider" role="region" aria-label="Hero - Study in India">
+
+  <!-- Background Slides -->
+  <div class="hero-background">
+    <div class="hero-slide" style="background-image: url('img/bg1.jpg.jpeg');"></div>
+    <div class="hero-slide" style="background-image: url('img/bg3.webp');"></div>
+    <div class="hero-slide" style="background-image: url('img/bg3.avif');"></div>
+  </div>
+
+  <!-- Dark Overlay -->
+  <div class="hero-overlay"></div>
+
+
+  <!-- Hero Content -->
+  <div class="hero-inner">
+
+    <h1>
+      Study in India. Build Your Skills. Accelerate Your Career.
+    </h1>
+
+    <p>
+      ELEVATEXIO connects international students with quality universities,
+      scholarship opportunities, industry internships and career-focused
+      programs designed to turn education into real-world opportunities.
+    </p>
+
+    <div class="btns" role="toolbar">
+
+      <a 
+        href="https://tally.so/r/mJ52E7" 
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener"
+      >
+        Apply / Quick Inquiry
+      </a>
+
+      <a 
+        href="#services" 
+        class="btn btn-ghost"
+      >
+        Explore Services
+      </a>
+
+      <a 
+        href="https://wa.me/8801905832655" 
+        class="btn whatsapp-btn"
+        target="_blank"
+        rel="noopener"
+      >
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp
+      </a>
+
+    </div>
+
+    <p class="small" style="margin-top:18px">
+      ELEVATEXIO Program —
+      <strong>Study in India Program</strong>
+    </p>
+
+  </div>
+
+</section>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- About short -->
+    <section id="about-short" class="container" aria-label="About ElevateX.Io">
+      <div style="display:flex; gap:18px; align-items:center; flex-wrap:wrap">
+        <div style="flex:1; min-width:280px">
+          <h2 class="section-title">About ElevateX.Io</h2>
+          <p style="margin:0 0 12px">ELEVATEXIO is an education and career-focused platform dedicated to bridging the gap between learning and employment by helping international students access quality higher education opportunities in India, scholarship opportunities, university admissions, internships, employability programs, and personalized career guidance. Our approach goes beyond traditional admission assistance by combining education, skills development, industry exposure, real-world experience, and career support to help students turn academic opportunities into meaningful professional outcomes. Through our three core verticals—ELEVATEX Careers, ELEVATEX Digital, and ELEVATEX IT Solutions—we create a connected ecosystem where education, technology, innovation, and professional growth come together. With a mission to transform education into opportunity, ELEVATEXIO empowers students to build relevant skills, gain industry exposure, and confidently shape successful careers in an increasingly global world.
+</p>
+          <p class="small">We operate across three verticals: <strong>ElevateX Careers</strong>, <strong>ElevateX Digital</strong>, and <strong>ElevateX IT Solutions</strong>.</p>
+        </div>
+
+        <div style="width:320px">
+          <div class="card">
+            <h3 style="margin-top:0">Study in India — Snapshot</h3>
+            <ul style="padding-left:16px; margin:10px 0">
+              <li>Education-to-Employment Pathways</li>
+              <li>Industry-Ready Skills Development</li>
+              <li>Internships & Real-World Experience</li>
+              <li>Placement & Employability Preparation</li>
+				<li>Career Mentorship & Industry Networking</li>
+				<li>Professional Growth & Employment Opportunities</li>
+            </ul>
+            <a href="#study" class="small" style="text-decoration:none; color:var(--primary); font-weight:700">Learn more →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Study in India highlight -->
+    <section id="study" class="container" aria-label="Study in India Program" style="margin-top:30px">
+      <div class="card highlight" role="region" aria-label="Study in India highlight">
+        <div class="highlight-left">
+          <h2 class="section-title">Study in India with Scholarships & Employability</h2>
+          <p style="margin:0 0 8px">We help students from SAARC countries find career-focused programs across India with scholarship opportunities, streamlined admissions, and internship pathways to boost job readiness.</p>
+
+          <ul class="feature-list" style="margin-top:10px">
+            <li>✅ Upto 100% Scholarship & application support</li>
+            <li>✅ University shortlisting & application filing</li>
+            <li>✅ Documentation, visa guidance & pre-departure briefings</li>
+            <li>✅ Self sponsor education through live projects and internships</li>
+            <li>✅ Internship placements & industry mentorship</li>
+          </ul>
+
+          <div style="margin-top:18px">
+            <a href="https://tally.so/r/mJ52E7" class="btn btn-primary">Apply Now</a>
+            <a href="https://wa.me/8801905832655" class="btn" style="background:#fff; border-radius:10px; font-weight:700">Quick Inquiry</a>
+          </div>
+        </div>
+
+        <div class="highlight-right" style="text-align:center">
+          <img src="img/sii.webp" alt="Students in India & flags" style="border-radius:12px; max-height:320px; width:100%; object-fit:cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Academic & Industry Network -->
+    <section id="collaborations" class="container" style="margin-top:28px;">
+  <div style="text-align:center;">
+    <h2 class="section-title">Our Academic & Industry Network</h2>
+    <p class="small" style="margin:0 0 24px;">
+      Connecting students with universities, industry platforms and professional ecosystems to create pathways from education to employment.
+    </p>
+  </div>
+
+  <div class="partner-grid">
+    <!-- Row 1 -->
+     <div class="partner-card">
+      <img src="img/gmc-logo.png" alt="GMC">
+     </div>
+
+     <div class="partner-card">
+      <img src="img/LPU-logo.jpg" alt="Lovely Professional University">
+     </div>
+
+     <div class="partner-card">
+      <img src="img/talentsprint-logo.jpeg" alt="TalentSprint">
+     </div>
+
+     <div class="partner-card">
+      <img src="img/amity logo.png" alt="Amity University">
+     </div>
+
+     <!-- Row 2 -->
+      <div class="partner-card">
+        <img src="img/CB Logo.png" alt="Partner">
+      </div>
+
+      <div class="partner-card">
+        <img src="img/utu logo.png" alt="Uttarakhand Technical University">
+      </div>
+
+      <div class="partner-card">
+        <img src="img/mahe logo.png" alt="Manipal Academy of Higher Education">
+      </div>
+
+      <div class="partner-card">
+        <img src="img/unstop logo.png" alt="Unstop">
+      </div>
+
+      <!-- Row 3 -->
+       <div class="partner-card">
+        <img src="img/jain.png" alt="JAIN University">
+       </div>
+
+       <div class="partner-card">
+        <img src="img/kiet.png" alt="KIET Group of Institutions">
+       </div>
+
+       <div class="partner-card">
+        <img src="img/swarnim.jpeg" alt="Swarnim University">
+       </div>
+
+       <!-- Many More -->
+        <div class="partner-card many-more">
+          <span>+ Many More</span>
+        </div>
+  </div>
+  </section>
+
+    <!-- Services -->
+     <section id="services" class="container" style="margin-top:28px; text-align:center;">
+      <h2 class="section-title">What We Do</h2>
+      <p class="small">
+        Building pathways from education to employment through career development, industry exposure, technology and innovation.
+      </p>
+
+      <div class="services-grid" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:18px;">
+        <!-- Education to Employment -->
+         <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+          <h3 style="margin-top:0">Education-to-Employment</h3>
+          <p class="small">
+            Career-focused education pathways designed to connect academic learning with real-world professional opportunities.
+          </p>
+          <ul style="margin-top:10px; padding-left:18px">
+            <li>Career-focused programs</li>
+            <li>University-industry exposure</li>
+            <li>Career pathway planning</li>
+          </ul>
+         </div>
+
+         <!-- Internships -->
+          <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+            <h3 style="margin-top:0">Internships & Industry Exposure</h3>
+            <p class="small">
+              Connecting students with practical experiences that help them develop workplace skills and build professional portfolios.
+            </p>
+          </div>
+
+          <!-- Employability -->
+           <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+            <h3 style="margin-top:0">Employability & Placement Readiness</h3>
+            <p class="small">
+              Preparing students for the workplace through practical training, professional development and placement-oriented preparation.
+            </p>
+           </div>
+
+           <!-- Career Development -->
+            <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+              <h3 style="margin-top:0">Career Development & Mentorship</h3>
+              <p class="small">
+                Personalized career guidance, mentorship and professional development to help students make informed career decisions.
+              </p>
+            </div>
+
+            <!-- Digital -->
+             <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+              <h3 style="margin-top:0">Digital & Growth Solutions</h3>
+              <p class="small">
+                Digital marketing, performance campaigns, content and growth solutions helping education and emerging brands build their digital presence.
+              </p>
+             </div>
+
+             <!-- IT -->
+              <div class="card" style="flex:1 1 250px; max-width:300px; text-align:left; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:8px;">
+                <h3 style="margin-top:0">IT & Technology Solutions</h3>
+                <p class="small">
+                  Technology solutions including web development, automation, cloud services and digital systems for organizations and businesses.
+                </p>
+              </div>
+      </div>
+     </section>
+
+    <!-- Our Success Stories -->
+     <section id="success-stories" class="container" style="margin-top:28px; text-align:center;">
+      <h2 class="section-title">Our Success Stories</h2>
+      <p class="small" style="margin:0 0 28px;">
+        Meet students who are building their academic and professional journeys through the ELEVATEXIO Program.
+      </p>
+      
+        <div class="success-grid">
+          <!-- Student 1 -->
+           <div class="success-card">
+            <img src="img/student1.jpeg" alt="Niloy Chakroborty">
+            <h3>Niloy Chakraborty</h3>
+            <p>B.Tech Civil Engineering</p>
+            <span>Lovely Professional University, Punjab</span>
+           </div>
+
+           <!-- Student 2 -->
+            <div class="success-card">
+              <img src="img/student2.jpeg" alt="Nirjhara Roy">
+              <h3>Nirjhara Roy</h3>
+              <p>Bachelor of Hotel Management & Catering Technology</p>
+              <span>Lovely Professional University, Punjab</span>
+            </div>
+
+            <!-- Student 3 -->
+             <div class="success-card">
+              <img src="img/student3.jpeg" alt="Afra Anam">
+              <h3>Afra Anam</h3>
+              <p>B.Tech Aerospace Engineering</p>
+              <span>Lovely Professional University, Punjab</span>
+             </div>
+
+             <!-- Student 4 -->
+              <div class="success-card">
+                <img src="img/student4.jpeg" alt="Tonmoy Kumar Das">
+                <h3>Tonmoy Kumar Das</h3>
+                <p>BBA (Business Analytics) In tie up with Institute of Analytics (IoA),UK</p>
+                <span>Lovely Professional University, Punjab</span>
+              </div>
+
+              <!-- Student 5 -->
+               <div class="success-card">
+                <img src="img/student5.jpeg" alt="Suvadip Gain">
+                <h3>Suvadip Gain</h3>
+                <p>B.Tech. (CSE) - Generative Artificial Intelligence [Gen AI] in tie up with Microsoft</p>
+                <span>Lovely Professional University, Punjab</span>
+               </div>
+
+               <!-- Student 6 -->
+                <div class="success-card">
+                  <img src="img/student6.jpeg" alt="Riyonti Das">
+                  <h3>Riyonti Das</h3>
+                  <p>Bachelor of Pharmacy</p>
+                  <span>Lovely Professional University, Punjab</span>
+                </div>
+        </div>
+
+        <!-- Optional indicators -->
+         <div class="success-dots" id="successDots">
+          <span class="success-dot active"></span>
+          <span class="success-dot"></span>
+          <span class="success-dot"></span>
+          <span class="success-dot"></span>
+          <span class="success-dot"></span>
+          <span class="success-dot"></span>
+         </div>
+
+     </section>
+
+    <!-- Quick Inquiry / Get Started Section -->
+     <section id="inquire" class="container" style="margin-top:60px; text-align:center;">
+      <h2 class="section-title">Start Your ELEVATEXIO Journey</h2>
+      <p class="small" style="margin-bottom:40px; max-width:650px; margin-left:auto; margin-right:auto;">
+        Explore education and career opportunities in India with personalized guidance across university selection, scholarships, internships, employability and career development.
+      </p>
+
+      <div class="inquiry-wrapper" style="display:flex; flex-wrap:wrap; justify-content:center; align-items:stretch; gap:50px;">
+
+        <!-- Application Card -->
+         <div class="application-card" style="flex:1 1 400px; max-width:450px; background:#f9f9f9; padding:40px 30px; border-radius:15px; box-shadow:0 6px 20px rgba(0,0,0,0.1); text-align:center;">
+          <img src="img/why choose India.webp" alt="ELEVATEXIO Program - Study in India" style="width:120px; height:120px; border-radius:50%; object-fit:cover; margin:0 auto 20px; display:block;">
+          <h3 style="margin-bottom:15px;">Join the ELEVATEXIO Program</h3>
+
+          <p class="small" style="margin-bottom:25px;">
+            Take the first step toward quality education, industry exposure and career opportunities in India. Connect with ELEVATEXIO and explore the pathway that fits your goals.
+          </p>
+
+          <a href="https://tally.so/r/mJ52E7" class="btn-application" style="display:inline-block; padding:15px 30px; background:var(--primary); color:#fff; font-weight:700; border-radius:10px; text-decoration:none; transition:all 0.3s ease; margin-bottom:10px;">
+            Get Started
+          </a>
+
+          <a href="https://wa.me/8801905832655" target="_blank" rel="noopener" style="display:inline-block; padding:12px 25px; background:#25D366; color:#fff; font-weight:700; border-radius:10px; text-decoration:none; transition:all 0.3s ease;">
+            Talk to an Senior Academician
+          </a>
+         </div>
+
+         <!-- Why Study in India Card -->
+          <div class="features-card" style="flex:1 1 350px; max-width:400px; background:#fff; padding:30px 25px; border-radius:15px; box-shadow:0 6px 20px rgba(0,0,0,0.05); text-align:left;">
+            <h4 style="margin-top:0; margin-bottom:20px;">
+              Why Study in India?
+            </h4>
+
+            <ul style="padding-left:18px; margin-bottom:20px;">
+              <li>Quality Education at Competitive Costs</li>
+              <li>Wide Range of Universities & Programs</li>
+              <li>Strong Industry & Technology Ecosystem</li>
+              <li>Internship & Practical Learning Opportunities</li>
+              <li>Career-Focused Skills & Employability Development</li>
+              <li>Multicultural Campus & Global Exposure</li>
+            </ul>
+
+            <img src="img/LPU.webp" alt="Indian university campus" style="width:100%; border-radius:12px; object-fit:cover; margin-top:10px;">
+          </div>
+      </div>
+     </section>
+
+    <!-- Team Section -->
+     <section id="team" class="container" style="margin-top:40px; text-align:center;">
+
+      <h2 class="section-title">Meet Our Team</h2>
+      <p class="small" style="margin-bottom:40px;">
+        The people behind ELEVATEXIO — building pathways across education, technology, industry and careers.
+      </p>
+
+      <!-- 1. Founder & CEO -->
+       <div class="team-subsection" style="margin-bottom:55px;">
+        <h3 style="margin-bottom:25px;">Founder & CEO</h3>
+        <div style="display:flex; justify-content:center;">
+          <div class="card team-member founder-card">
+            <img src="img/partho.jpeg" alt="Partho Kumar Saha" class="team-photo">
+            <strong>Partho Kumar Saha</strong>
+            <div class="small team-role">
+              Founder & CEO
+            </div>
+            <a href="https://www.linkedin.com/in/partho-kumar-s/" target="_blank" rel="noopener noreferrer" class="linkedin-btn" aria-label="Partho Kumar Saha LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+              LinkedIn
+            </a>
+            <a href="https://medium.com/@kr.parthos01" target="_blank" rel="noopener noreferrer" class="social-btn medium" aria-label="Partho Kumar Saha Medium">
+              <i class="fab fa-medium-m"></i>
+              Medium
+            </a>
+            <a href="https://www.instagram.com/i.m.partho/" target="_blank" rel="noopener noreferrer" class="social-btn instagram" aria-label="Partho Kumar Saha Instagram">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+       </div>
+
+       <!-- 2. Core Team -->
+        <div class="team-subsection" style="margin-bottom:50px;">
+          <h3 style="margin-bottom:10px;">
+            The Pillars of ELEVATEXIO — Core Team
+          </h3>
+
+          <p class="small" style="margin-bottom:25px;">
+            A multidisciplinary team working across academics, technology, partnerships, operations and business growth.
+          </p>
+
+          <div class="core-team-grid">
+            <!-- Member 1 -->
+             <div class="card team-member">
+              <img src="img/oishe.enc" alt="Sanjida Rahman Oishe" class="team-photo">
+              <strong>Sanjida Rahman Oishe</strong>
+              <div class="small team-role">
+                Human Resource Associate
+              </div>
+              <a href="https://www.linkedin.com/in/sanjida-rahman-oishe/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                <i class="fab fa-linkedin-in"></i>
+                LinkedIn
+              </a>
+             </div>
+
+             <!-- Member 2 -->
+              <div class="card team-member">
+                <img src="img/Sahin.jpeg" alt="Sahin Ahmed" class="team-photo"> <strong>Sahin Ahmed</strong>
+                <div class="small team-role">
+                  Head of Academics & Corporate Alliances
+                </div>
+                <a href="YOUR_LINKEDIN_LINK" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                  <i class="fab fa-linkedin-in"></i>
+                  LinkedIn
+                </a>
+              </div>
+
+              <!-- Member 3 -->
+               <div class="card team-member">
+                <img src="img/anjali.jpeg" alt="Anjali Kumari" class="team-photo">
+                <strong>Anjali Kumari</strong>
+                <div class="small team-role">
+                  Consultant WebTech
+                </div>
+                <a href="YOUR_LINKEDIN_LINK" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                  <i class="fab fa-linkedin-in"></i>
+                  LinkedIn
+                </a>
+               </div>
+
+               <!-- Member 4 -->
+                <div class="card team-member">
+                  <img src="img/sayanti1.jpeg" alt="Sayanti Paul" class="team-photo">
+                  <strong>Saynti Paul</strong>
+                  <div class="small team-role">
+                    Business Development Associate & Academician
+                  </div>
+                  <a href="https://www.linkedin.com/in/sayanti-paul-74415a365/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                    <i class="fab fa-linkedin-in"></i>
+                    LinkedIn
+                  </a>
+                </div>
+
+                <!-- Member 5 -->
+                 <div class="card team-member">
+                  <img src="img/ridhi.jpeg" alt="Ridhi Kundu" class="team-photo">
+                  <strong>Ridhi Kundu</strong>
+                  <div class="small team-role">
+                    Founding Member & WebTech Associate
+                  </div>
+                  <a href="https://www.linkedin.com/in/ridhi-kundu-8187363a6/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                    <i class="fab fa-linkedin-in"></i>
+                    LinkedIn
+                  </a>
+                 </div>
+
+                 <!-- Member 6 -->
+                  <div class="card team-member">
+                    <img src="img/urme.jpeg" alt="Fariha Urme" class="team-photo">
+                    <strong>Fariha Urme</strong>
+                    <div class="small team-role">
+                      Business Development Associate & Academician
+                    </div>
+                    <a href="https://www.linkedin.com/in/fariha-urme-826b4235a/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+                  
+                  <!-- Member 7 -->
+                  <div class="card team-member">
+                    <img src="img/Sejuti.jpeg" alt="Sejuti Dhali" class="team-photo">
+                    <strong>Sejuti Dhali</strong>
+                    <div class="small team-role">
+                      Quality Assurance Associate
+                    </div>
+                    <a href="https://www.linkedin.com/in/dhali-sejuti/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+
+                  <!-- Member 8 -->
+                  <div class="card team-member">
+                    <img src="img/choiti.jpeg" alt="Choiti Mitra" class="team-photo">
+                    <strong>Choiti Mitra</strong>
+                    <div class="small team-role">
+                      Research Associate (RA)
+                    </div>
+                    <a href="https://www.linkedin.com/in/choiti-mitra-5139843b2/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+
+                  <!-- Member 9 -->
+                  <div class="card team-member">
+                    <img src="img/Shriyansh.png" alt="Shriyansh Agarwal" class="team-photo">
+                    <strong>Shriyansh Agarwal</strong>
+                    <div class="small team-role">
+                      Guest Facilitator
+                    </div>
+                    <a href="https://www.linkedin.com/in/shriyanshagarwal/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+
+                  <!-- Member 10 -->
+                  <div class="card team-member">
+                    <img src="img/arif.jpeg" alt="Kazi Arif Billah Hossain" class="team-photo">
+                    <strong>Kazi Arif Billah Hossain</strong>
+                    <div class="small team-role">
+                      Student Welfare Associate
+                    </div>
+                    <a href="https://www.linkedin.com/in/kazi-arif-billah/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+
+                  <!-- Member 11 -->
+                  <div class="card team-member">
+                    <img src="img/anjali1.jpg" alt="Anjali Yadav" class="team-photo">
+                    <strong>Anjali Yadav</strong>
+                    <div class="small team-role">
+                      Jr. Web Developer
+                    </div>
+                    <a href="https://www.linkedin.com/in/anjali-yadav-77263b379/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+
+                  <!-- Member 11 -->
+                  <div class="card team-member">
+                    <img src="img/tasnim.jpg" alt="Sadikatul Tasnim" class="team-photo">
+                    <strong>Sadikatul Tasnim</strong>
+                    <div class="small team-role">
+                      Global Partnership Manager
+                    </div>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
+                      <i class="fab fa-linkedin-in"></i>
+                      LinkedIn
+                    </a>
+                  </div>
+          </div>
+        </div>
+
+        <!-- Join Our Team -->
+         <div style="text-align:center; margin-top:25px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+
+          <!-- Join Our Team -->
+           <a href="mailto:career@elevatexio.com?subject=Application%20for%20%5BRole%20Title%5D&body=Hello%20ELEVATEXIO%20Team%2C%0D%0A%0D%0AMy%20name%20is%20%5BFull%20Name%5D.%20I%20would%20like%20to%20apply%20for%20the%20%5BRole%20Title%5D%20position.%0D%0A%0D%0AQualifications%3A%20%5BBrief%20summary%5D%0D%0APhone%3A%20%5BWhatsApp%20or%20phone%5D%0D%0A%0D%0ARegards%2C%0D%0A%5BFull%20Name%5D"  class="btn" style="background:#0047AB; color:#fff; padding:12px 22px; border-radius:8px; text-decoration:none; display:inline-block;">
+            Join Our Team
+           </a>
+
+           <!-- Glassdoor -->
+            <a href="https://www.glassdoor.com/Overview/Working-at-ElevateX-Io-EI_IE10453243.11,22.htm" target="_blank" rel="noopener noreferrer" class="btn" style="
+            background:#00A86B;
+            color:#fff;
+            padding:12px 22px;
+            border-radius:8px;
+            text-decoration:none;
+            display:inline-flex;
+            align-items:center;
+            gap:7px;
+            ">
+            <i class="fab fa-glassdoor"></i>
+          View us on Glassdoor
+        </a>
+         </div>
+     </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="container" style="margin-top:60px; text-align:center;">
+
+  <h2 class="section-title">Connect With ELEVATEXIO</h2>
+
+  <p class="small" style="max-width:650px; margin:0 auto 35px;">
+    Have a question about the ELEVATEXIO Program, partnerships, career opportunities or our services?
+    Our team is here to connect with you.
+  </p>
+
+
+  <div class="contact-wrapper"
+       style="
+         display:flex;
+         flex-wrap:wrap;
+         justify-content:center;
+         gap:25px;
+         margin-top:30px;
+         align-items:stretch;
+       ">
+
+
+    <!-- Corporate Office -->
+    <div class="contact-card"
+         style="
+           flex:1 1 300px;
+           max-width:420px;
+           background:#f9f9f9;
+           padding:32px;
+           border-radius:15px;
+           box-shadow:0 6px 20px rgba(0,0,0,0.05);
+           text-align:left;
+         ">
+
+      <div style="
+        width:48px;
+        height:48px;
+        border-radius:12px;
+        background:var(--primary);
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:20px;
+        margin-bottom:18px;
+      ">
+        <i class="fas fa-building"></i>
+      </div>
+
+      <h3 style="margin:0 0 18px;">
+        Corporate Office
+      </h3>
+
+      <p class="small" style="line-height:1.7; margin-bottom:18px;">
+        Urban27, Level 12,<br>
+        Rangs Nasim Square,<br>
+        Dhanmondi 27, Dhaka,<br>
+        Bangladesh — 1209
+      </p>
+
+      <div style="border-top:1px solid #e5e5e5; padding-top:18px;">
+
+        <p class="small" style="margin:8px 0;">
+          <i class="fas fa-phone" style="width:20px;"></i>
+          <a href="tel:+8801905832655" style="text-decoration:none;">
+            +880-1905-832655
+          </a>
+        </p>
+
+        <p class="small" style="margin:8px 0;">
+          <i class="fas fa-envelope" style="width:20px;"></i>
+          <a href="mailto:support@elevatexio.com" style="text-decoration:none;">
+            support@elevatexio.com
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- Connect With Us -->
+    <div class="contact-card"
+         style="
+           flex:1 1 300px;
+           max-width:420px;
+           background:#f9f9f9;
+           padding:32px;
+           border-radius:15px;
+           box-shadow:0 6px 20px rgba(0,0,0,0.05);
+           text-align:left;
+         ">
+
+      <div style="
+        width:48px;
+        height:48px;
+        border-radius:12px;
+        background:#eef2fb;
+        color:var(--primary);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:20px;
+        margin-bottom:18px;
+      ">
+        <i class="fas fa-globe"></i>
+      </div>
+
+      <h3 style="margin:0 0 8px;">
+        Connect With Us
+      </h3>
+
+      <p class="small" style="margin-bottom:22px;">
+        Follow ELEVATEXIO for updates, opportunities, student stories, industry insights and career-focused content.
+      </p>
+
+
+      <div style="
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+      ">
+
+        <!-- Facebook -->
+        <a
+          href="https://www.facebook.com/profile.php?id=61572854667516"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="social-icon facebook">
+            <i class="fab fa-facebook-f"></i>
+          </span>
+          Facebook
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/elevatex.io/"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+          </span>
+          Instagram
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/company/elevatex-io/"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="social-icon linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </span>
+          LinkedIn
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Company Presence -->
+    <div class="contact-card"
+         style="
+           flex:1 1 300px;
+           max-width:420px;
+           background:#f9f9f9;
+           padding:32px;
+           border-radius:15px;
+           box-shadow:0 6px 20px rgba(0,0,0,0.05);
+           text-align:left;
+         ">
+
+      <div style="
+        width:48px;
+        height:48px;
+        border-radius:12px;
+        background:#eef2fb;
+        color:var(--primary);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:20px;
+        margin-bottom:18px;
+      ">
+        <i class="fas fa-chart-line"></i>
+      </div>
+
+      <h3 style="margin:0 0 8px;">
+        Company Presence
+      </h3>
+
+      <p class="small" style="margin-bottom:22px;">
+        Explore our company profile, workplace culture and startup presence across leading professional platforms.
+      </p>
+
+
+      <div style="
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+      ">
+
+        <!-- YourStory -->
+        <a
+          href="https://yourstory.com/"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="presence-logo">
+            <img src="img/yourstory.png" alt="YourStory">
+          </span>
+          YourStory
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+
+        <!-- Glassdoor -->
+        <a
+          href="https://www.glassdoor.com/Overview/Working-at-ElevateX-Io-EI_IE10453243.11,22.htm"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="presence-logo">
+            <img src="img/glassdoor.png" alt="Glassdoor">
+          </span>
+          Glassdoor
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+
+        <!-- Crunchbase -->
+        <a
+          href="https://www.crunchbase.com/organization/elevatex-io"
+          target="_blank"
+          rel="noopener"
+          class="contact-social"
+        >
+          <span class="presence-logo">
+            <img src="img/crunchbase.png" alt="Crunchbase">
+          </span>
+          Crunchbase
+          <i class="fas fa-arrow-right arrow"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <!-- Floating WhatsApp + Social -->
+  <a class="whatsapp-cta" href="https://wa.me/8801905832655" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp" style="font-size:18px"></i><span style="font-weight:700; margin-left:6px">WhatsApp</span>
+  </a>
+
+  <div class="social-sidebar" aria-hidden="false">
+    <a href="https://www.facebook.com/profile.php?id=61572854667516" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/elevatex.io/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/elevatex-io/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Footer -->
+   <footer>
+    <div class="footer-grid">
+
+      <!-- Brand -->
+       <div>
+        <img src="img/ElevateX_io_trimmed.png" alt="ELEVATEXIO" style="height:36px">
+        <p class="small">
+          Empowering Careers. Accelerating Futures. Innovating IT & Digital Success.
+        </p>
+        <p class="small" style="margin-top:12px;">
+          Building pathways from education to employment through technology,
+          industry exposure and career-focused opportunities.
+        </p>
+       </div>
+
+       <!-- Quick Links -->
+        <div>
+          <h4 style="margin:6px 0 10px;">Quick Links</h4>
+          <nav aria-label="Footer links">
+            <a href="#home" style="display:block; color:inherit; margin-bottom:8px;">
+              Home
+            </a>
+            <a href="#services" style="display:block; color:inherit; margin-bottom:8px;">
+              What We Do
+            </a>
+            <a href="#success-stories" style="display:block; color:inherit; margin-bottom:8px;">
+              Success Stories
+            </a>
+            <a href="#team" style="display:block; color:inherit; margin-bottom:8px;">Our Team</a>
+            <a href="#contact" style="display:block; color:inherit; margin-bottom:8px;">Contact</a>
+          </nav>
+        </div>
+
+        <!-- Contact -->
+         <div>
+          <h4 style="margin:6px 0 10px;">Contact</h4>
+
+          <p class="small">
+            Urban27, Level 12,<br>
+        Rangs Nasim Square,<br>
+        Dhanmondi 27, Dhaka,<br>
+        Bangladesh — 1209
+          </p>
+
+          <p class="small">
+            <a href="mailto:support@elevatexio.com" style="color:inherit;">
+              support@elevatexio.com
+            </a>
+          </p>
+
+          <p class="small">
+            <a href="tel:+8801905832655" style="color:inherit;" >
+              +880-1905-832655
+            </a>
+          </p>
+         </div>
+
+         <!-- Legal -->
+          <div>
+            <h4 style="margin:6px 0 10px;">Legal</h4>
+            <a href="privacy-policy.html" style="display:block; color:inherit; margin-bottom:8px;">
+              Privacy Policy
+            </a>
+            <a href="refund-policy.html" style="display:block; color:inherit; margin-bottom:8px;">
+              Refund Policy
+            </a>
+            <a href="terms-and-conditions.html" style="display:block; color:inherit; margin-bottom:8px;">
+              Terms & Conditions
+            </a>
+
+            <p class="small" style="margin-top:15px;">
+              © 2026 ELEVATEXIO SOLUTIONS. All Rights Reserved.
+            </p>
+          </div>
+    </div>
+   </footer>
+
+  <script>
+    /* Simple testimonials carousel */
+    (function(){
+      const track = document.getElementById('testTrack');
+      const slides = track.children;
+      let idx = 0;
+      const show = (i) => {
+        track.style.transform = `translateX(-${i * 100}%)`;
+      };
+      document.getElementById('prevTest').addEventListener('click', () => {
+        idx = (idx - 1 + slides.length) % slides.length;
+        show(idx);
+      });
+      document.getElementById('nextTest').addEventListener('click', () => {
+        idx = (idx + 1) % slides.length;
+        show(idx);
+      });
+      // auto-advance every 6s
+      setInterval(() => { idx = (idx + 1) % slides.length; show(idx); }, 6000);
+    })();
+
+    /* Quick form validations (front-end only) */
+    document.getElementById('quickInquiryForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('qname').value.trim();
+      const email = document.getElementById('qemail').value.trim();
+      const wa = document.getElementById('qwhatsapp').value.trim();
+      if(!name || !email || !wa){
+        alert('Please fill name, email and WhatsApp number.');
+        return;
+      }
+      // TODO: replace with fetch() to your server endpoint
+      alert('Thanks! Your inquiry has been submitted. We will contact you shortly.');
+      this.reset();
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('cname').value.trim();
+      const email = document.getElementById('cemail').value.trim();
+      const msg = document.getElementById('cmessage').value.trim();
+      if(!name || !email || !msg){
+        alert('Please complete name, email and message.');
+        return;
+      }
+      alert('Message sent — thank you! We will reply soon.');
+      this.reset();
+    });
+
+    /* Accessibility: ensure focus outline visible when keyboard user */
+    document.body.addEventListener('keydown', function(e){
+      if(e.key === 'Tab') document.documentElement.style.scrollBehavior = 'smooth';
+    });
+  </script>
+
+</body>
+</html>
